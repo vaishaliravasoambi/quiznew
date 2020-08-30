@@ -1,0 +1,87 @@
+.number {
+  color: #000000;
+  text-shadow: 2px 2px 3px white;
+}
+.true:hover {
+  background-color: green;
+}
+a:hover {
+  background-color: white;
+  color: black;
+  text-decoration: underline;
+}
+ul > li:hover {
+  background-color: #d11313;
+  border: blueviolet dotted;
+}
+ul > li {
+  margin: 10px 10px 0px 0px;
+  padding: 10px 0px;
+  height: 10px;
+  width: 180px;
+  background-color: #d16ba5;
+  border: blueviolet dotted;
+  border-radius: 8px;
+  box-shadow: 2px 2px 4px #000000;
+}
+* {
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+.font {
+  font-size: 60px;
+  color: white;
+}
+.center1 {
+  height: 250%;
+  display: flex;
+  flex-direction: column;
+  padding-top: 40px;
+  align-items: center;
+}
+.button {
+  text-decoration: none;
+  background-color: skyblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  color: black;
+  height: 60px;
+  width: 100px;
+  border: solid white;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px black;
+  margin-top: 20px;
+}
+a > button {
+  text-decoration: none;
+  background-color: skyblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  color: black;
+  height: 60px;
+  width: 100px;
+  border: solid white;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px black;
+  margin-top: 20px;
+}
+
+.ques {
+  padding: 10px 30px;
+  height: 100%;
+}
+div > button {
+  background-color: black;
+  color: white;
+  height: 40px;
+  width: 100px;
+}
+
+div > button:hover {
+  background-color: white;
+  color: black;
+}
